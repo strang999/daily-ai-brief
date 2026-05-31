@@ -1,0 +1,9 @@
+services:
+  daily-brief:
+    build: .
+    container_name: daily-ai-brief
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - ./screenshots:/app/screenshots
+      - ./logs:/app/logs
