@@ -2,7 +2,7 @@ name: Daily AI Brief
 
 on:
   schedule:
-    - cron: '30 5 * * *'   # 05:30 UTC = 08:30 Kyiv (EEST)
+    - cron: '30 7 * * *'   # 07:30 UTC = 08:30 Lisbon (WEST/summer)
   workflow_dispatch:        # manual trigger button in GitHub UI
 
 jobs:
